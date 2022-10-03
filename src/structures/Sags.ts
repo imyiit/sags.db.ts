@@ -1,7 +1,24 @@
 import lodash from "lodash";
 import fs from "fs";
 import { SagsdbError } from "./Error";
-import type { SagsSetting, Input } from "../types/index";
+
+interface SagsSetting {
+  name: string;
+  folder: string;
+  minify: boolean;
+}
+
+type Input =
+  | bigint
+  | boolean
+  | number
+  | object
+  | string
+  | symbol
+  | undefined
+  | null
+  | [];
+
 export class Sags {
   public name: string;
   public folder: string;

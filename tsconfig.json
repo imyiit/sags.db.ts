@@ -12,8 +12,8 @@
     "strict": true,
     "sourceMap": false,
     "module": "CommonJS",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
   },
-  "exclude": ["node_modules", "dist", "src/types/*.d.ts"],
+  "exclude": ["node_modules", "dist"],
   "include": ["src"]
 }
