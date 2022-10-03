@@ -1,6 +1,6 @@
 {
   "name": "sags.db.ts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,9 +10,22 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js --ignore database\"",
     "start:ts": "ts-node-dev src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyiit/sags.db.git"
+  },
+  "keywords": [
+    "DB",
+    "Database",
+    "JSON",
+    "JsonDB"
+  ],
+  "author": "imyiit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imyiit/sags.db/issues"
+  },
+  "homepage": "https://github.com/imyiit/sags.db#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.186",
     "@types/node": "^18.7.18",
