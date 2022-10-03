@@ -1,7 +1,7 @@
 {
   "name": "sags.db.ts",
-  "version": "1.0.6",
-  "description": "",
+  "version": "1.0.7",
+  "description": "Fast JSON database system.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imyiit/sags.db.git"
+    "url": "git+https://github.com/imyiit/sags.db.ts.git"
   },
   "keywords": [
     "DB",
@@ -23,9 +23,9 @@
   "author": "imyiit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imyiit/sags.db/issues"
+    "url": "https://github.com/imyiit/sags.db.ts/issues"
   },
-  "homepage": "https://github.com/imyiit/sags.db#readme",
+  "homepage": "https://github.com/imyiit/sags.db.ts#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.186",
     "@types/node": "^18.7.18",
