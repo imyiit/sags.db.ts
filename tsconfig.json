@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES6",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": false,
+    "module": "CommonJS",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "dist", "src/types/*.d.ts"],
+  "include": ["src"]
+}
