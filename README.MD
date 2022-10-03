@@ -19,7 +19,7 @@ npm install sags.db.ts
 ## <i class="fa-solid fa-bookmark"></i> **Usage**
 
 ```js
-const sagsdb = require("sags");
+const sagsdb = require("sags.db.ts");
 ```
 Default database name is "**db**".
 
