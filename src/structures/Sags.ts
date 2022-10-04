@@ -2,7 +2,7 @@ import lodash from "lodash";
 import fs from "fs";
 import { SagsdbError } from "./Error";
 
-interface SagsSetting {
+interface SagsSettings {
   name: string;
   folder: string;
   minify: boolean;
@@ -28,10 +28,10 @@ export class Sags {
   private db;
   private saveDB;
 
-  constructor(setting?: SagsSetting) {
-    this.name = setting?.name ?? "sags";
-    this.folder = setting?.folder ?? "database";
-    this.minify = setting?.minify ?? true;
+  constructor(settings?: SagsSettings) {
+    this.name = settings?.name ?? "sags";
+    this.folder = settings?.folder ?? "database";
+    this.minify = settings?.minify ?? true;
 
     this.folderPath = this.folder
       .toString()
