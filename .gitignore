@@ -20,7 +20,7 @@ pids
 lib-cov
 
 #Dist file
-src
+#src
 
 # Coverage directory used by tools like istanbul
 coverage

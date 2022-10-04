@@ -1,9 +1,9 @@
 {
   "name": "sags.db.ts",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Fast JSON database system.",
   "main": "dist/index.js",
-  "types": "src/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
