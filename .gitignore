@@ -21,7 +21,7 @@ lib-cov
 
 #Dist file
 src
-
+tsconfig.json
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
